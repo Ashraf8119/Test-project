@@ -1,0 +1,14 @@
+body {
+    padding-top: 56px;
+  }
+  header {
+    background: #343a40;
+    color: white;
+    padding: 60px 0;
+  }
+  footer {
+    background: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
