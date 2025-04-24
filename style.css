@@ -1,18 +1,19 @@
 .card .icon{
-  color: lightseagreen;
+  color: #28d8d8;
   font-size: 35px;
   }
   .card .card-text{
     color: gray;
   }
   .card:hover{
-  background-color: lightseagreen;
-  color: #ffffff;
+  background-color:#DCFEEB ;
+  color: #050505;
   }
   .card:hover .icon,
   .card:hover .card-text{
-    color: #ffffff;
+    color: #0e0d0d;
   }
   .card{
     transition:all 0.3s;
+    margin-bottom: 15px
   }

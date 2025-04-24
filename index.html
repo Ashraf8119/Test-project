@@ -13,259 +13,561 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container">
-            <a class="navbar-brand" href="#"><img src="image/OPUS.png" width="150" height="50"> </a>
+    <div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="image/OPUS.png" width="150" height="50" alt="OPUS Logo">
+                </a>
+            </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
             <div class="col-md-8">
+                <div>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="padding-top: 15px;">
+                        <ul class="navbar-nav me-auto mb-4 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">About Us</a>
+                            </li>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent" style="padding-top: 15px;">
-                    <ul class="navbar-nav me-auto mb-4 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link active" href="#">Home</a>
-                        </li>
-                        <li class="nav-item"><a class="nav-link active"
-                                href="#">About Us</a></li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                        aria-expanded="false">Products</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item"
-                                                href="#">HR and Payroll
-                                                Software</a></li>
-                                        <li>
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <li><a class="dropdown-item"
-                                                href="#">Accounting
-                                                Management System</a></li>
-                                        <li>
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <li><a class="dropdown-item"
-                                                href="#">Restaurent
-                                                Management System</a></li>
-                                    </ul>
-        
-                                </li>
-                                <li>
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">Fintech Solution</a>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Products
+                                </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item"
-                                            href="#">Arish:
-                                            Islamic Digital Banking Solution</a></li>
+                                    <li><a class="dropdown-item" href="#">HR and Payroll Software</a></li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item"
-                                            href="#">Arish: Islamic Core
-                                            Banking Solution</a></li>
+                                    <li><a class="dropdown-item" href="#">Accounting Management System</a></li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item"
-                                            href="#">Hashir:
-                                            Islamic Microfinance Banking Solution</a></li>
+                                    <li><a class="dropdown-item" href="#">Restaurant Management System</a></li>
+                                </ul>
+                            </li>
 
-                                </li>
-                    </ul>
-                        <li class="nav-item"><a class="nav-link active"
-                                href="#">Services</a></li>
-                        <li class="nav-item"><a class="nav-link active"
-                                href="#">Clients</a></li>
-                        <li class="nav-item"><a class="nav-link active"
-                                href="#">Blogs</a></li>
-                        <li class="nav-item"><a class="nav-link active"
-                                href="#">Jobs</a></li>
-                        <li class="nav-item"><a class="nav-link active"
-                                href="#">Contact Us</a></li>
-                  
-                    </ul>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Fintech Solution
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Arish: Islamic Digital Banking Solution</a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Arish: Islamic Core Banking Solution</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Hashir: Islamic Microfinance Banking
+                                            Solution</a></li>
+                                </ul>
+                            </li>
+
+
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Clients</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Blogs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Jobs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-
-
-               
-                    
-                </ul>
-
             </div>
-        </div>
+    </div>
     </nav>
 
-    <div class="slider-wrapper">
-        <div class="slider-fade">
-            <img src="https://opussystemsolutions.com/wp-content/uploads/slider/cache/c6fbcf4f08168936873c9b8f94c49819/WhatsApp-Image-2023-11-18-at-6.51.12-PM.jpg" width="100%">
 
+    <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="3"></button>
+            <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="4"></button>
+            <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="5"></button>
+            <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="6"></button>
+            <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="7"></button>
         </div>
+
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="image/cafe.jpg" class="d-block w-100" alt="Image 1">
+            </div>
+            <div class="carousel-item">
+                <img src="image/ari.jpg" class="d-block w-100" alt="Image 2">
+            </div>
+            <div class="carousel-item">
+                <img src="image/hash.jpeg" class="d-block w-100" alt="Image 3">
+            </div>
+            <div class="carousel-item">
+                <img src="image/cm.jpg" class="d-block w-100" alt="Image 4">
+            </div>
+            <div class="carousel-item">
+                <img src="image/asper.jpg" class="d-block w-100" alt="Image 5">
+            </div>
+            <div class="carousel-item">
+                <img src="image/office.jpg" class="d-block w-100" alt="Image 6">
+            </div>
+            <div class="carousel-item">
+                <img src="image/elpida.jpeg" class="d-block w-100" alt="Image 7">
+            </div>
+            <div class="carousel-item">
+                <img src="image/light.jpeg" class="d-block w-100" alt="Image 8">
+            </div>
+        </div>
+
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
     </div>
 
 
-<section style="padding-bottom: 60px; padding-top: 60px;     background-color:#f7f2f2;" >
-    <main class="container my-5">
-        <div class="row">
-            <div class="col-md-7">
-                <h2>About Us</h2>
-                <p>It is an <a href="https://opus-bd.com/">Opus Technology Bangladesh</a> sister concern and was
-                    established in 2023.</p>
-                <p>OPUS System Solutions is a Malaysia-based software development company with a strong focus on Islamic
-                    Ethics. As a proud affiliate of OPUS Technology Limited, a distinguished software developer since
-                    2012, our mission is to drive IT innovation and digital transformation on a global scale. We
-                    specialize in custom Software, Mobile Apps, Gaming, Animation, Web Development, and Artificial
-                    Intelligence.</p>
-                <p>We believe in leveraging technology for the greater good and aim to integrate Islamic Ethics into our
-                    solutions. Our commitment goes beyond profit, focusing on delivering top-notch customer service and
-                    building lasting partnerships. With a rapidly growing team and expanding presence, OPUS System
-                    Solutions is dedicated to making a positive impact on society through ethical and innovative
-                    software solutions.</p>
+    <script>
+        const myCarousel = document.querySelector('#imageCarousel');
+        const carousel = new bootstrap.Carousel(myCarousel, {
+            interval: 2500,
+            ride: 'carousel'
+        });
+    </script>
+
+
+
+
+    <section style="padding-bottom: 60px; padding-top: 60px;     background-color:#f7f2f2;">
+        <main class="container my-5">
+            <div class="row">
+                <div class="col-md-7">
+                    <h2>About Us</h2>
+                    <p>It is an <a href="https://opus-bd.com/">Opus Technology Bangladesh</a> sister concern and was
+                        established in 2023.</p>
+                    <p>OPUS System Solutions is a Malaysia-based software development company with a strong focus on
+                        Islamic
+                        Ethics. As a proud affiliate of OPUS Technology Limited, a distinguished software developer
+                        since
+                        2012, our mission is to drive IT innovation and digital transformation on a global scale. We
+                        specialize in custom Software, Mobile Apps, Gaming, Animation, Web Development, and Artificial
+                        Intelligence.</p>
+                    <p>We believe in leveraging technology for the greater good and aim to integrate Islamic Ethics into
+                        our
+                        solutions. Our commitment goes beyond profit, focusing on delivering top-notch customer service
+                        and
+                        building lasting partnerships. With a rapidly growing team and expanding presence, OPUS System
+                        Solutions is dedicated to making a positive impact on society through ethical and innovative
+                        software solutions.</p>
                     <button type="button" class="btn btn-info">Learn More!</button>
+                </div>
+                <div class="col-md-5">
+                    <img src="image/qqq.png" width="500" height="400">
+                </div>
             </div>
-            <div class="col-md-5">
-                <img src="image/qqq.png" width="500" height="400">
-            </div>
+
+        </main>
+    </section>
+
+    <section class="bg-image  d-flex align-items-center"
+        style="background-image: url('image/background.jpg'); height: 500px; background-size: cover; background-position: center;">
+        <div class="container text-center">
+            <h1 class="display-4 fw-bold" style="color:#1987B5 ">OPUS Technology Limited</h1>
+            <h2>Our parent organization</h2>
+            <p class="lead">Opus Technology Limited specializes in software design, development, and maintenance. It
+                excels in creating remarkable software, mobile apps, web development, AI, games, and animation. Since
+                its inception in 2012, it has been dedicated to delivering cutting-edge solutions for its esteemed
+                clientele.</p>
+            <a href="#" class="btn btn-outline-info" style="border-radius: 25px;">Visit Our Site!</a>
         </div>
+    </section>
 
-    </main>
-</section>
-
-    
 
     <main class="container my-5">
         <div class="row">
             <div class="col-md-6">
                 <img src="image\Online.png" width="600" height="450">
-            
+
             </div>
             <div class="col-md-6">
                 <img src="image\arish_1.png" width="250" height="100">
                 <p><b>Islamic Core Solution</b></p>
-                <p>ARISH provides a Sharia-compliant platform that optimizes banking operations, guarantees adherence to Islamic finance principles, and enhances customer service efficiency. Its history of successful implementations and contented clients within the Islamic finance sector underscores its reputation as a reliable and impactful solution. It’s the ideal choice to meet your institution’s unique requirements while upholding your Islamic values.</p>
+                <p>ARISH provides a Sharia-compliant platform that optimizes banking operations, guarantees adherence to
+                    Islamic
+                    finance principles, and enhances customer service efficiency. Its history of successful
+                    implementations and
+                    contented clients within the Islamic finance sector underscores its reputation as a reliable and
+                    impactful
+                    solution. It’s the ideal choice to meet your institution’s unique requirements while upholding your
+                    Islamic
+                    values.</p>
                 <button type="button" class="btn btn-info">Read More!</button>
             </div>
-        </div> 
+        </div>
 
     </main>
 
-    <section style="padding-bottom: 60px; padding-top: 60px;     background-color:#f7f2f2;" >    
+    <section style="padding-bottom: 60px; padding-top: 60px;     background-color:#f7f2f2;">
         <main class="container my-5">
-        <div class="row">
-            <div class="col-md-6">
-               
-                <img src="image\Hashir.png" width="250" height="150">
-                <p><b>Islamic Microfinance Banking Solution</b></p>
-                <p>HASHIR is an Islamic Microfinance Banking Solution, bridging the gap for individuals and businesses seeking ethical financial services that align with Islamic principles. It offers Sharia-compliant microfinance options, promoting financial inclusion and economic growth while upholding religious values. Join TURBO today to empower your finances and your community.</p><br>
-                <button type="button" class="btn btn-info">Read More!</button>
+            <div class="row">
+                <div class="col-md-6">
+
+                    <img src="image\Hashir.png" width="250" height="150">
+                    <p><b>Islamic Microfinance Banking Solution</b></p>
+                    <p>HASHIR is an Islamic Microfinance Banking Solution, bridging the gap for individuals and
+                        businesses seeking
+                        ethical financial services that align with Islamic principles. It offers Sharia-compliant
+                        microfinance
+                        options, promoting financial inclusion and economic growth while upholding religious values.
+                        Join TURBO
+                        today to empower your finances and your community.</p><br>
+                    <button type="button" class="btn btn-info">Read More!</button>
+                </div>
+
+                <div class="col-md-6">
+                    <img src="image\card.jpg" width="600" height="450">
+                </div>
             </div>
 
-            <div class="col-md-6">
-                <img src="image\card.jpg" width="600" height="450">
+        </main>
+    </section>
+
+    <section style="padding-bottom: 60px; padding-top: 60px;">
+        <main class="container my-5">
+            <div class="row">
+
+                <div class="col-md-6">
+                    <img src="image/shariah.jpg" width="600" height="450" alt="Shariah Image">
+                </div>
+
+                <div class="col-md-6">
+                    <img src="image/Arish_2.png" width="300" height="150" alt="HASHIR Logo">
+                    <p><b>Shahriah Based</b> Islamic Digital Banking Solution</p>
+
+                    <p>ARISH addresses the challenge of finding a Shariah-compliant Islamic Digital Banking Solution by
+                        providing
+                        a platform that aligns with Islamic finance principles. Users can easily manage accounts, make
+                        payments, and
+                        invest, all while ensuring compliance with ethical banking standards. ARISH stands as a trusted
+                        choice for
+                        individuals and businesses seeking accessible and user-friendly Islamic banking services.</p>
+                    <button type="button" class="btn btn-info">Read More!</button>
+                </div>
+
             </div>
-        </div>
+        </main>
+    </section>
 
-    </main>
-</section>
+    <section style="padding-bottom: 60px; padding-top: 60px;     background-color:#f7f2f2;">
+        <main class="container my-5">
+            <div class="row">
+                <div class="col-md-6">
 
-<section style="padding-bottom: 60px; padding-top: 60px;">
-    <main class="container my-5">
-      <div class="row">
+                    <img src="image\Arish_3.png" width="250" height="150">
+                    <p><b>Shahriah Based</b> Islamic Digital Banking Solution</p>
+                    <p>Solving the challenge of accessing Shahriah based financing, ARISH simplifies and expedites the
+                        application
+                        and approval process for Sharia-compliant loans, earning acclaim within the Islamic finance
+                        industry. For
+                        individuals and businesses seeking ethical and compliant financing, ARISH provides a
+                        user-friendly platform
+                        that seamlessly integrates Islamic finance principles, offering a much-needed solution for
+                        Shahriah based
+                        financial options.</p>
+                    <button type="button" class="btn btn-info">Read More!</button>
+                </div>
+                <div class="col-md-6">
+
+                    <img src="image\crop.jpg" width="500" height="350">
+                </div>
+            </div>
+            </div>
+
+        </main>
+    </section>
+
+
+    <section style="padding-bottom: 60px; padding-top: 60px;">
+        <main class="container my-5">
+            <div class="row">
+
+                <div class="col-md-6">
+                    <img src="image/ERP.jpg" width="600" height="450">
+                </div>
+
+                <div class="col-md-6">
+                    <img src="image/Elpida.png" width="300" height="150">
+                    <p><b>Enterprise Resource Planning Software</b></p><br>
+
+                    <p>This powerful solution simplifies processes, optimizes resource allocation, and facilitates
+                        data-driven
+                        decision-making, helping businesses thrive in today’s competitive landscape. With a proven track
+                        record of
+                        success, Elpida ERP has earned the trust of countless organizations across diverse industries,
+                        enabling them
+                        to boost productivity and profitability.</p>
+                    <button type="button" class="btn btn-info">Read More!</button>
+                </div>
+
+            </div>
+        </main>
+    </section>
+
+    <section style="padding-bottom: 60px; padding-top: 60px;     background-color:#f7f2f2;">
+        <main class="container my-5">
+            <div class="row">
+                <div class="col-md-6">
+
+                    <img src="image\Goldfish.png" width="350" height="150">
+                    <p><b>Hr and Payroll Software</b></p><br>
+                    <p>By providing a comprehensive and user-friendly solution, GOLDFISH simplifies the complexities
+                        associated
+                        with tasks like employee onboarding, payroll processing, and tax compliance. GOLDFISH has earned
+                        the trust
+                        of HR professionals and business owners, consistently delivering accurate, efficient, and
+                        compliant results.
+                        Take action now to streamline your operations, ensure compliance, and empower your workforce
+                        with GOLDFISH,
+                        the proven choice for HR and payroll excellence.</p>
+                    <button type="button" class="btn btn-info">Read More!</button>
+                </div>
+                <div class="col-md-6">
+
+                    <img src="image/Hr.jpg" width="600" height="450">
+                </div>
+            </div>
+            </div>
+
+        </main>
+    </section>
+
+    <section style="padding-bottom: 60px; padding-top: 60px;">
+        <main class="container my-5">
+            <div class="row">
+
+                <div class="col-md-6">
+                    <img src="image/Business.jpg" width="600" height="450">
+                </div>
+
+                <div class="col-md-6">
+                    <img src="image/Jason.png" width="250" height="100">
+                    <p><b>Accounting Management System</b></p><br>
+
+                    <p>JASON offers a solution to streamline your accounting processes. It is the transformative force that simplifies accounting processes, making it an indispensable asset for businesses looking to thrive in today’s competitive landscape. With its ability to streamline accounting tasks, automate data entry, and provide real-time financial insights, JASON has become the trusted choice for organizations worldwide.</p>
+                    <button type="button" class="btn btn-info">Read More!</button>
+                </div>
+
+            </div>
+        </main>
+    </section>
+
+    <section style="padding-bottom: 60px; padding-top: 60px;     background-color:#f7f2f2;">
+        <main class="container my-5">
+            <div class="row">
+                <div class="col-md-6">
+
+                    <img src="image\Umbrella.png" width="300" height="100">
+                    <p><b>Customer Relationship Management (CRM)</b></p><br>
+                    <p>UMBRELLA is the game-changing CRM solution that enables businesses to conquer the challenges of customer relationship management, drive profitability, and build lasting customer loyalty. Trusted by  businesses worldwide, UMBRELLA has consistently delivered outstanding results. Experience the difference with UMBRELLA and take your business to new heights.
+                    </p>
+                    <button type="button" class="btn btn-info">Read More!</button>
+                </div>
+                <div class="col-md-6">
+
+                    <img src="image/CRM.jpg" width="600" height="450">
+                </div>
+            </div>
+            </div>
+
+        </main>
+    </section>
+
+    <section style="padding-bottom: 60px; padding-top: 60px;">
+        <main class="container my-5">
+            <div class="row">
+
+                <div class="col-md-6">
+                    <img src="image/Res.jpg" width="600" height="450">
+                </div>
+
+                <div class="col-md-6">
+                    <img src="image/Smart.png" width="200" height="100">
+                    <p><b>Restaurant Management System</b></p><br>
+
+                    <p>SMARTCAFE, developed by OPUS Technology Limited, provides an innovative Restaurant Management System that streamlines operations, optimizes inventory control, and enhances customer service. With real-time tracking of orders, inventory levels, and customer data, SMARTCAFE ensures efficient restaurant management.</p>
+                </div>
+
+            </div>
+        </main>
+    </section>
+   
         
-        <div class="col-md-6">
-          <img src="image/shariah.jpg" width="600" height="450" alt="Shariah Image">
-        </div>
-  
-        <div class="col-md-6">
-          <img src="image/Arish_2.png" width="300" height="150" alt="HASHIR Logo">
-          <p><b>Shahriah Based</b> Islamic Digital Banking Solution</p>
+        <div class="container p-5">
+            <div class="row g-4">
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card text-center border-0 shadow rounded-3 h-100 d-flex flex-column p-3">
+                  <div class="icon fs-1 text-primary mb-3"><i class="bi bi-code-slash"></i></div>
+                  <div class="card-body flex-grow-1 d-flex align-items-center justify-content-center">
+                    <h5 class="card-title fw-bold">Custom Software Development</h5>
+                  </div>
+                </div>
+              </div>
           
-            <p>ARISH addresses the challenge of finding a Shariah-compliant Islamic Digital Banking Solution by providing a platform that aligns with Islamic finance principles. Users can easily manage accounts, make payments, and invest, all while ensuring compliance with ethical banking standards. ARISH stands as a trusted choice for individuals and businesses seeking accessible and user-friendly Islamic banking services.</p>
-            <button type="button" class="btn btn-info">Read More!</button>
-        </div>
-  
-      </div>
-    </main>
-  </section>
-
-<section style="padding-bottom: 60px; padding-top: 60px;     background-color:#f7f2f2;" >    
-    <main class="container my-5">
-    <div class="row">
-        <div class="col-md-6">
-           
-            <img src="image\Arish_3.png" width="250" height="150">
-            <p><b>Shahriah Based</b> Islamic Digital Banking Solution</p>
-            <p>Solving the challenge of accessing Shahriah based financing, ARISH simplifies and expedites the application and approval process for Sharia-compliant loans, earning acclaim within the Islamic finance industry. For individuals and businesses seeking ethical and compliant financing, ARISH provides a user-friendly platform that seamlessly integrates Islamic finance principles, offering a much-needed solution for Shahriah based financial options.</p>
-            <button type="button" class="btn btn-info">Read More!</button>
-        </div>
-            <div class="col-md-6">
-
-            <img src="image\Crop.jpg" width="500" height="350">
-        </div>
-    </div>
-    </div>
-
-</main>
-</section>
-
-
-<section style="padding-bottom: 60px; padding-top: 60px;">
-    <main class="container my-5">
-      <div class="row">
-        
-        <div class="col-md-6">
-          <img src="image/ERP.jpg" width="600" height="450" >
-        </div>
-  
-        <div class="col-md-6">
-          <img src="image/Elpida.png" width="300" height="150" >
-          <p><b>Enterprise Resource Planning Software</b></p><br>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card text-center border-0 shadow rounded-3 h-100 d-flex flex-column p-3">
+                  <div class="icon fs-1 text-primary mb-3"><i class="bi bi-tablet"></i></div>
+                  <div class="card-body flex-grow-1 d-flex align-items-center justify-content-center">
+                    <h5 class="card-title fw-bold">Mobile Application Development</h5>
+                  </div>
+                </div>
+              </div>
           
-          <p>This powerful solution simplifies processes, optimizes resource allocation, and facilitates data-driven decision-making, helping businesses thrive in today’s competitive landscape. With a proven track record of success, Elpida ERP has earned the trust of countless organizations across diverse industries, enabling them to boost productivity and profitability.</p>
-            <button type="button" class="btn btn-info">Read More!</button>
-        </div>
-  
-      </div>
-    </main>
-  </section>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card text-center border-0 shadow rounded-3 h-100 d-flex flex-column p-3">
+                  <div class="icon fs-1 text-primary mb-3"><i class="bi bi-laptop"></i></div>
+                  <div class="card-body flex-grow-1 d-flex align-items-center justify-content-center">
+                    <h5 class="card-title fw-bold">Web Application Development</h5>
+                  </div>
+                </div>
+              </div>
+          
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card text-center border-0 shadow rounded-3 h-100 d-flex flex-column p-3">
+                  <div class="icon fs-1 text-primary mb-3"><i class="fa-solid fa-lightbulb"></i></div>
+                  <div class="card-body flex-grow-1 d-flex align-items-center justify-content-center">
+                    <h5 class="card-title fw-bold">Business Intelligence</h5>
+                  </div>
+                </div>
+              </div>
+          
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card text-center border-0 shadow rounded-3 h-100 d-flex flex-column p-3">
+                  <div class="icon fs-1 text-primary mb-3"><i class="fa-solid fa-brain"></i></div>
+                  <div class="card-body flex-grow-1 d-flex align-items-center justify-content-center">
+                    <h5 class="card-title fw-bold">Artificial Intelligence (AI)</h5>
+                  </div>
+                </div>
+              </div>
+          
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card text-center border-0 shadow rounded-3 h-100 d-flex flex-column p-3">
+                  <div class="icon fs-1 text-primary mb-3"><i class="fa-sharp fa-solid fa-link"></i></div>
+                  <div class="card-body flex-grow-1 d-flex align-items-center justify-content-center">
+                    <h5 class="card-title fw-bold">Blockchain</h5>
+                  </div>
+                </div>
+              </div>
+          
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card text-center border-0 shadow rounded-3 h-100 d-flex flex-column p-3">
+                  <div class="icon fs-1 text-primary mb-3"><i class="bi bi-globe"></i></div>
+                  <div class="card-body flex-grow-1 d-flex align-items-center justify-content-center">
+                    <h5 class="card-title fw-bold">Internet Of Things</h5>
+                  </div>
+                </div>
+              </div>
+          
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card text-center border-0 shadow rounded-3 h-100 d-flex flex-column p-3">
+                  <div class="icon fs-1 text-primary mb-3"><i class="bi bi-cloud-fog2-fill"></i></div>
+                  <div class="card-body flex-grow-1 d-flex align-items-center justify-content-center">
+                    <h5 class="card-title fw-bold">Outsourcing</h5>
+                  </div>
+                </div>
+              </div>
+          
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card text-center border-0 shadow rounded-3 h-100 d-flex flex-column p-3">
+                  <div class="icon fs-1 text-primary mb-3"><i class="fa-solid fa-chalkboard-user"></i></div>
+                  <div class="card-body flex-grow-1 d-flex align-items-center justify-content-center">
+                    <h5 class="card-title fw-bold">Process Consulting</h5>
+                  </div>
+                </div>
+              </div>
+          
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card text-center border-0 shadow rounded-3 h-100 d-flex flex-column p-3">
+                  <div class="icon fs-1 text-primary mb-3"><i class="fa-solid fa-gear"></i></div>
+                  <div class="card-body flex-grow-1 d-flex align-items-center justify-content-center">
+                    <h5 class="card-title fw-bold text-break text-center">Re-engineering & Migration</h5>
+                  </div>
+                </div>
+              </div>
+          
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card text-center border-0 shadow rounded-3 h-100 d-flex flex-column p-3">
+                  <div class="icon fs-1 text-primary mb-3"><i class="fa-solid fa-server"></i></div>
+                  <div class="card-body flex-grow-1 d-flex align-items-center justify-content-center">
+                    <h5 class="card-title fw-bold">Audit as a Service</h5>
+                  </div>
+                </div>
+              </div>
+          
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card text-center border-0 shadow rounded-3 h-100 d-flex flex-column p-3">
+                  <div class="icon fs-1 text-primary mb-3"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+                  <div class="card-body flex-grow-1 d-flex align-items-center justify-content-center">
+                    <h5 class="card-title fw-bold">Digital Marketing</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
 
-  <section style="padding-bottom: 60px; padding-top: 60px;     background-color:#f7f2f2;" >    
-    <main class="container my-5">
-    <div class="row">
-        <div class="col-md-6">
-           
-            <img src="image\Goldfish.png" width="350" height="150">
-            <p><b>Hr and Payroll Software</b></p><br>
-            <p>By providing a comprehensive and user-friendly solution, GOLDFISH simplifies the complexities associated with tasks like employee onboarding, payroll processing, and tax compliance. GOLDFISH has earned the trust of HR professionals and business owners, consistently delivering accurate, efficient, and compliant results. Take action now to streamline your operations, ensure compliance, and empower your workforce with GOLDFISH, the proven choice for HR and payroll excellence.</p>
-            <button type="button" class="btn btn-info">Read More!</button>
-        </div>
-            <div class="col-md-6">
 
-            <img src="image\Hr.jpg" width="500" height="350">
-        </div>
+
+<footer>
+    <div class="container" style="background-color: cadetblue;">
+<div class="row">
+    <div class="col-md-4"></div>
+    
+    <p>Make a deal with an ISO 9001:2015 Certified Company .ISO 9001 : 2015 is the international standard that specifies requirements for Quality Management System (QMS). Opus Technology Limited is an ISO 9001 : 2015 certified company, ensuring high quality and standards in our services.</p>
+    
+    <p>Make a deal with an ISO 27001:2022 Certified Company .Being Certified indicates that an organization has implemented an information security management system (ISMS) in accordance with the requirements specified in the 2022 version of the ISO 27001 standard.</p>
+    <div class="col-md-4"></div>
+    <h3>Important Links</h3>
+    <ul>
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+    </ul>
+    <div class="col-md-4"></div>
+ 
+</div>
+
     </div>
-    </div>
 
-</main>
-</section>
-
-
-
-
-
-
-
-
-
-
-
-
+</footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
