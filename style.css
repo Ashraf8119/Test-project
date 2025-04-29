@@ -75,7 +75,7 @@
     opacity: 1;
 }
 
-
+/* journey creating memories */
 
 .timeline-title {
   text-align: center;
@@ -119,6 +119,153 @@
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
+/* Showcase service */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 100%;
+  background-color: rgb(245, 245, 245);
+  padding: 50px 0;
+  display: grid;
+  place-items: center;
+}
+
+.heading {
+  font-size: 27px;
+  font-weight: 500;
+  color: rgb(31, 137, 212);
+  position: relative;
+  margin-bottom: 80px;
+}
+
+.heading_line::after {
+  position: absolute;
+  content: '';
+  width: 50%;
+  height: 4px;
+  left: 50%;
+  bottom: -5px;
+  background-image: linear-gradient(to right, rgb(13, 168, 219), rgb(44, 196, 223));
+  transform: translateX(-50%);
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  position: relative;
+  padding: 40px 0;
+}
+.container_line {
+  position: relative; 
+}
+
+.container_line::after {
+  position: absolute;
+  content: '';
+  width: 2px;
+  height: 100%;
+  background-image: linear-gradient(to bottom, rgb(46, 149, 233), rgb(33, 175, 240));
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  z-index: 0;
+}
+
+.container ul {
+  list-style: none;
+  position: relative;
+  z-index: 1;
+}
+
+.container ul li {
+  width: 50%;
+  padding: 15px 20px;
+  background-color: #fff;
+  box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  z-index: 1;
+}
+
+.container ul li:nth-child(odd) {
+  float: left;
+  clear: right;
+  transform: translateX(-30px);
+  text-align: right;
+}
+
+.container ul li:nth-child(even) {
+  float: right;
+  clear: left;
+  transform: translateX(30px);
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 500;
+  color: rgb(31, 152, 120);
+}
+
+ul li p {
+  font-size: 15px;
+  color: #444;
+  margin: 7px 0;
+  line-height: 23px;
+}
+
+ul li a {
+  font-size: 15px;
+  color: rgb(19, 173, 150);
+  text-decoration: none;
+}
+
+ul li .date {
+  position: absolute;
+  top: -40px;
+  left: 20px;
+  width: 135px;
+  height: 35px;
+  border-radius: 20px;
+  color: #fff;
+  background-image: linear-gradient(to right, rgb(24, 135, 203), rgb(55, 160, 221));
+  display: grid;
+  place-items: center;
+  font-size: 14px;
+  z-index: 2;
+}
 
 
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
+  .container_line::after {
+    left: 20px;
+    transform: none;
+  }
+
+  .container ul li {
+    width: 100%;
+    float: none !important;
+    transform: none !important;
+    text-align: left !important;
+    margin-left: 0;
+  }
+
+  .container ul li .circle {
+    left: -15px !important;
+    transform: none !important;
+  }
+
+  .container ul li .date {
+    left: 50px;
+  }
+}
 
